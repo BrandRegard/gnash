@@ -1,0 +1,758 @@
+/* gnashconfig.h.in.  Generated from configure.ac by autoheader.  */
+
+/* ABS Resolution field */
+#undef ABSINFO_RESOLUTION
+
+/* Define if building universal (internal helper macro) */
+#undef AC_APPLE_UNIVERSAL_BUILD
+
+/* this is an AmigaOS4 platform */
+#undef AMIGAOS4_HOST
+
+/* This is an Android build */
+#undef ANDROID
+
+/* this is an Android platform */
+#undef ANDROID_HOST
+
+/* if the library is missing, don't use it. */
+#undef BOOST_MULTI_INDEX_DISABLE_SERIALIZATION
+
+/* Use DirectFB device support */
+#undef BUILD_DIRECTFB_DEVICE
+
+/* Build the EGL device for OpenVG, OpenGLES1&2, and X11/Mesa */
+#undef BUILD_EGL_DEVICE
+
+/* Use raw Framebuffer device support */
+#undef BUILD_RAWFB_DEVICE
+
+/* Build the X11 device */
+#undef BUILD_X11_DEVICE
+
+/* Add support for writing a standalone executable launcher for movies
+   embedded in web pages */
+#undef CREATE_STANDALONE_GNASH_LAUNCHER
+
+/* this is a Darwin platform */
+#undef DARWIN_HOST
+
+/* Enable debug logging */
+#undef DEBUG_LOGGING
+
+/* Speex codec available */
+#undef DECODING_SPEEX
+
+/* Default Flash major version */
+#undef DEFAULT_FLASH_MAJOR_VERSION
+
+/* Default Flash minor version */
+#undef DEFAULT_FLASH_MINOR_VERSION
+
+/* Default 3-letter platform identifier for version string */
+#undef DEFAULT_FLASH_PLATFORM_ID
+
+/* Default Flash revision number */
+#undef DEFAULT_FLASH_REV_NUMBER
+
+/* Default value for System.capabilities.os */
+#undef DEFAULT_FLASH_SYSTEM_OS
+
+/* Path to default font */
+#undef DEFAULT_FONTFILE
+
+/* Default SharedObject base directory */
+#undef DEFAULT_SOL_SAFEDIR
+
+/* Default streams timeout in seconds */
+#undef DEFAULT_STREAMS_TIMEOUT
+
+/* Disable double buffering for AGG */
+#undef ENABLE_DOUBLE_BUFFERING
+
+/* Enable using a file instead of a real framebuffer */
+#undef ENABLE_FAKE_FRAMEBUFFER
+
+/* Use FFmpeg for media decoding */
+#undef ENABLE_FFMPEG_MEDIA
+
+/* Use gstreamer for media decoding */
+#undef ENABLE_GST_MEDIA
+
+/* Use haiku for media decoding */
+#undef ENABLE_HAIKU_MEDIA
+
+/* Define to 1 if translation of program messages to the user's native
+   language is requested. */
+#undef ENABLE_NLS
+
+/* Define if ffmpeg can decode NELLYMOSER audio */
+#undef FFMPEG_NELLYMOSER
+
+/* Define if ffmpeg can play VP6A. */
+#undef FFMPEG_VP6A
+
+/* this is a FreeBSD platform */
+#undef FREEBSD_HOST
+
+/* Enable FPS debugging code */
+#undef GNASH_FPS_DEBUG
+
+/* Collecting and report stats about ObjectURI case lookups */
+#undef GNASH_STATS_OBJECT_URI_NOCASE
+
+/* Collecting and report stats about property lookups */
+#undef GNASH_STATS_PROPERTY_LOOKUPS
+
+/* Collecting and report stats about string_table::key case lookups */
+#undef GNASH_STATS_STRING_TABLE_NOCASE
+
+/* this is a GNU platform */
+#undef GNU_HOST
+
+/* this is a Haiku platform */
+#undef HAIKU_HOST
+
+/* Has the Gstreamer Plugin Dev package installed */
+#undef HAS_GSTREAMER_PLUGINS_BASE
+
+/* Define this if you want to enable python usage */
+#undef HAS_PYTHON
+
+/* Define if you have the atk/atk.h header */
+#undef HAVE_ATK_ATK_H
+
+/* Define if you have the cairo.h header */
+#undef HAVE_CAIRO_H
+
+/* Define to 1 if you have the MacOS X function CFLocaleCopyCurrent in the
+   CoreFoundation framework. */
+#undef HAVE_CFLOCALECOPYCURRENT
+
+/* Define to 1 if you have the MacOS X function CFPreferencesCopyAppValue in
+   the CoreFoundation framework. */
+#undef HAVE_CFPREFERENCESCOPYAPPVALUE
+
+/* Has clock_gettime() */
+#undef HAVE_CLOCK_GETTIME
+
+/* Define to 1 if you have the <curl/curl.h> header file. */
+#undef HAVE_CURL_CURL_H
+
+/* Define if the GNU dcgettext() function is already present or preinstalled.
+   */
+#undef HAVE_DCGETTEXT
+
+/* Define if you have the dejagnu.h header */
+#undef HAVE_DEJAGNU_H
+
+/* Define if you have the directfb.h header */
+#undef HAVE_DIRECTFB_H
+
+/* Define to 1 if you have the <dirent.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_DIRENT_H
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Have OpenGL-ES EGL/egl.h */
+#undef HAVE_EGL_EGL_H
+
+/* Define if you have the expat.h header */
+#undef HAVE_EXPAT_H
+
+/* Has the Linux splice() system call */
+#undef HAVE_FCNTL_SPLICE
+
+/* Has the Linux tee() system call */
+#undef HAVE_FCNTL_TEE
+
+/* Define if you have avcodec.h installed. */
+#undef HAVE_FFMPEG_AVCODEC_H
+
+/* Define if avformat.h is found */
+#undef HAVE_FFMPEG_AVFORMAT_H
+
+/* Define if swscale.h is found */
+#undef HAVE_FFMPEG_SWSCALE_H
+
+/* Defined if ffmpeg/vaapi.h is found */
+#undef HAVE_FFMPEG_VAAPI_H
+
+/* Has finite */
+#undef HAVE_FINITE
+
+/* Define if you have the fltk/FL_API.h header */
+#undef HAVE_FLTK_FL_API_H
+
+/* Define if you have the fontconfig/fontconfig.h header */
+#undef HAVE_FONTCONFIG_FONTCONFIG_H
+
+/* Define to 1 if you have the <freetype2/freetype/freetype.h> header file. */
+#undef HAVE_FREETYPE2_FREETYPE_FREETYPE_H
+
+/* Define to 1 if you have the `ftime' function. */
+#undef HAVE_FTIME
+
+/* __FUNCTION__ is defined */
+#undef HAVE_FUNCTION
+
+/* Define to 1 if you have the `getopt' function. */
+#undef HAVE_GETOPT
+
+/* Define to 1 if you have the <getopt.h> header file. */
+#undef HAVE_GETOPT_H
+
+/* Has getpwnam */
+#undef HAVE_GETPWNAM
+
+/* Define if the GNU gettext() function is already present or preinstalled. */
+#undef HAVE_GETTEXT
+
+/* Define to 1 if you have the `gettimeofday' function. */
+#undef HAVE_GETTIMEOFDAY
+
+/* Define if you have the gif_lib.h header */
+#undef HAVE_GIF_LIB_H
+
+/* Have OpenGLES 1 egl.h */
+#undef HAVE_GLES1_EGL_H
+
+/* Have OpenGL-ES GLES/glext.h */
+#undef HAVE_GLES1_GLEXT_H
+
+/* Have OpenGL-ES GLES/gl.h */
+#undef HAVE_GLES1_GL_H
+
+/* Define to 1 if you have the <GLES2/gl2.h> header file. */
+#undef HAVE_GLES2_GL2_H
+
+/* Define to 1 if you have the <GLES/egl.h> header file. */
+#undef HAVE_GLES_EGL_H
+
+/* Has GLIB library installed */
+#undef HAVE_GLIB
+
+/* Define to 1 if you have the <GL/gl.h> header file. */
+#undef HAVE_GL_GL_H
+
+/* Define this for GCC-visibility. */
+#undef HAVE_GNUC_VISIBILITY
+
+/* Define if you have the gst/app/gstappsink.h header */
+#undef HAVE_GST_APP_GSTAPPSINK_H
+
+/* Define if you have the gst/gst.h header */
+#undef HAVE_GST_GST_H
+
+/* Define if you have the gst/interfaces/probeprobe.h header */
+#undef HAVE_GST_INTERFACES_PROBEPROBE_H
+
+/* Define if you have the gst/pbutils/install-plugins.h header */
+#undef HAVE_GST_PBUTILS_INSTALL_PLUGINS_H
+
+/* Use GTK2 for windowing */
+#undef HAVE_GTK2
+
+/* GTKGLExt header */
+#undef HAVE_GTK_GTKGL_H
+
+/* Define to 1 if you have the <gtk/gtk.h> header file. */
+#undef HAVE_GTK_GTK_H
+
+/* Define if you have the iconv() function and it works. */
+#undef HAVE_ICONV
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* Use ipc_info */
+#undef HAVE_IPC_INFO
+
+/* Has IPV6 support */
+#undef HAVE_IPV6
+
+/* Has isfinite */
+#undef HAVE_ISFINITE
+
+/* Define if you have the jpeglib.h header */
+#undef HAVE_JPEGLIB_H
+
+/* Have KDE 3.x installed */
+#undef HAVE_KDE3
+
+/* Have KDE 4.x installed */
+#undef HAVE_KDE4
+
+/* Define to 1 if you have the <kde4/kapplication.h> header file. */
+#undef HAVE_KDE4_KAPPLICATION_H
+
+/* Define to 1 if you have the <kde/qxembed.h> header file. */
+#undef HAVE_KDE_QXEMBED_H
+
+/* Define if you have avcodec.h installed. */
+#undef HAVE_LIBAVCODEC_AVCODEC_H
+
+/* Defined if libavcodec/vaapi.h is found */
+#undef HAVE_LIBAVCODEC_VAAPI_H
+
+/* Define if avformat.h is found */
+#undef HAVE_LIBAVFORMAT_AVFORMAT_H
+
+/* Define to 1 if you have the <libgen.h> header file. */
+#undef HAVE_LIBGEN_H
+
+/* Define to 1 if you have the `rt' library (-lrt). */
+#undef HAVE_LIBRT
+
+/* Define if you have the libssh/libssh.h header */
+#undef HAVE_LIBSSH_LIBSSH_H
+
+/* Define if swscale.h is found */
+#undef HAVE_LIBSWSCALE_SWSCALE_H
+
+/* Define to 1 if you have the `X11' library (-lX11). */
+#undef HAVE_LIBX11
+
+/* Define to 1 if you have the `Xi' library (-lXi). */
+#undef HAVE_LIBXI
+
+/* Define to 1 if you have the `localtime_r' function. */
+#undef HAVE_LOCALTIME_R
+
+/* Has __thread (local thread storage) support */
+#undef HAVE_LOCAL_THREAD_STORAGE
+
+/* extern timezone is a long integer, not a function */
+#undef HAVE_LONG_TIMEZONE
+
+/* Libtool 2.x defines this, but libtool 1.5 does not */
+#undef HAVE_LTDL
+
+/* Define if you have the ltdl.h header */
+#undef HAVE_LTDL_H
+
+/* Has mallinfo() */
+#undef HAVE_MALLINFO
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* Define to 1 if you have the <ming.h> header file. */
+#undef HAVE_MING_H
+
+/* Define to 1 if you have the `mkstemps' function. */
+#undef HAVE_MKSTEMPS
+
+/* Define to 1 if you have the `mmap' function. */
+#undef HAVE_MMAP
+
+/* Defined if you have MySQL installed */
+#undef HAVE_MYSQL
+
+/* Define to 1 if you have the <ndir.h> header file, and it defines `DIR'. */
+#undef HAVE_NDIR_H
+
+/* Define if you have the nspr.h header */
+#undef HAVE_NSPR_H
+
+/* Define if you have the openssl/ssl.h header */
+#undef HAVE_OPENSSL_SSL_H
+
+/* Define if you have the png.h header */
+#undef HAVE_PNG_H
+
+/* Define to 1 if you have the <poll.h> header file. */
+#undef HAVE_POLL_H
+
+/* Define to 1 if you have the `ppoll' function. */
+#undef HAVE_PPOLL
+
+/* __PRETTY_FUNCTION__ is defined */
+#undef HAVE_PRETTY_FUNCTION
+
+/* Define to 1 if you have the `pselect' function. */
+#undef HAVE_PSELECT
+
+/* Define if you have POSIX threads libraries and header files. */
+#undef HAVE_PTHREADS
+
+/* Define to 1 if you have the <pwd.h> header file. */
+#undef HAVE_PWD_H
+
+/* Define to 1 if you have the <pythonrun.h> header file. */
+#undef HAVE_PYTHONRUN_H
+
+/* Have QT 3.x installed */
+#undef HAVE_QT3
+
+/* Have QT 4.x installed */
+#undef HAVE_QT4
+
+/* Define to 1 if you have the `scandir' function. */
+#undef HAVE_SCANDIR
+
+/* We have SDL support */
+#undef HAVE_SDL_H
+
+/* Has the Linux sendfile() system call */
+#undef HAVE_SENDFILE
+
+/* Define to 1 if you have the `shmat' function. */
+#undef HAVE_SHMAT
+
+/* Define to 1 if you have the `shmdt' function. */
+#undef HAVE_SHMDT
+
+/* Define to 1 if you have the `shmget' function. */
+#undef HAVE_SHMGET
+
+/* Define to 1 if you have the <signal.h> header file. */
+#undef HAVE_SIGNAL_H
+
+/* Define if you have the speex.h header */
+#undef HAVE_SPEEX_H
+
+/* Define if you have the speex_resampler.h header */
+#undef HAVE_SPEEX_RESAMPLER_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define if swscale.h is found */
+#undef HAVE_SWSCALE_H
+
+/* Define to 1 if you have the `sysconf' function. */
+#undef HAVE_SYSCONF
+
+/* Define to 1 if you have the <sys/dir.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_SYS_DIR_H
+
+/* Define to 1 if you have the <sys/epoll.h> header file. */
+#undef HAVE_SYS_EPOLL_H
+
+/* Define to 1 if you have the <sys/ndir.h> header file, and it defines `DIR'.
+   */
+#undef HAVE_SYS_NDIR_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/time.h> header file. */
+#undef HAVE_SYS_TIME_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/utsname.h> header file. */
+#undef HAVE_SYS_UTSNAME_H
+
+/* struct tm has member tm_gmtoff */
+#undef HAVE_TM_GMTOFF
+
+/* Define if you have the tslib.h header */
+#undef HAVE_TSLIB_H
+
+/* Define to 1 if you have the `tzset' function. */
+#undef HAVE_TZSET
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define if you have the va/va_glx.h header */
+#undef HAVE_VA_VA_GLX_H
+
+/* Define if you have the va/va.h header */
+#undef HAVE_VA_VA_H
+
+/* Define if you have the va/va_x11.h header */
+#undef HAVE_VA_VA_X11_H
+
+/* Have Freescale OpenVG */
+#undef HAVE_VG_EXT_H
+
+/* Have LibMESA OpenVG */
+#undef HAVE_VG_VGEXT_H
+
+/* This is defined is we are on Win32 */
+#undef HAVE_WINSOCK
+
+/* Define to 1 if you have the <winsock2.h> header file. */
+#undef HAVE_WINSOCK2_H
+
+/* Define to 1 if you have the <winsock.h> header file. */
+#undef HAVE_WINSOCK_H
+
+/* X11 headers and libraries */
+#undef HAVE_X11
+
+/* Have the X11 X.h header file */
+#undef HAVE_X11_X_H
+
+/* Define if you have the Xft.h header */
+#undef HAVE_XFT_H
+
+/* Define if you have the zlib.h header */
+#undef HAVE_ZLIB_H
+
+/* __func__ is defined */
+#undef HAVE_func
+
+/* Has the key field in ipc_perm */
+#undef IPC_PERM_KEY
+
+/* this is a Linux platform */
+#undef LINUX_HOST
+
+/* Define to the sub-directory in which libtool stores uninstalled libraries.
+   */
+#undef LT_OBJDIR
+
+/* this is a NetBSD platform */
+#undef NETBSD_HOST
+
+/* Is not based on the SGI GL */
+#undef NOT_SGI_GL
+
+/* Define to 1 if your C compiler doesn't accept -c and -o together. */
+#undef NO_MINUS_C_MINUS_O
+
+/* Newer versions use const in prototypes */
+#undef NPAPI_CONST
+
+/* Define that we have NPAPI present in version 1.9.0 and maybe older */
+#undef NPAPI_VERSION
+
+/* this is an OpenBSD platform */
+#undef OPENBSD_HOST
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* ABGR32 pixel format */
+#undef PIXELFORMAT_ABGR32
+
+/* ARGB32 pixel format */
+#undef PIXELFORMAT_ARGB32
+
+/* BGR24 pixel format */
+#undef PIXELFORMAT_BGR24
+
+/* BGRA32 pixel format */
+#undef PIXELFORMAT_BGRA32
+
+/* RGB24 pixel format */
+#undef PIXELFORMAT_RGB24
+
+/* RGB555 pixel format */
+#undef PIXELFORMAT_RGB555
+
+/* RGB565 pixel format */
+#undef PIXELFORMAT_RGB565
+
+/* RGBA32 pixel format */
+#undef PIXELFORMAT_RGBA32
+
+/* Define to necessary symbol if this constant uses a non-standard name on
+   your system. */
+#undef PTHREAD_CREATE_JOINABLE
+
+/* Use AntiGrain renderer */
+#undef RENDERER_AGG
+
+/* Use cairo renderer */
+#undef RENDERER_CAIRO
+
+/* Use OpenGL-ES version 1.x */
+#undef RENDERER_GLES1
+
+/* Use OpenGLES v2 version 2 */
+#undef RENDERER_GLES2
+
+/* Use OpenGL renderer */
+#undef RENDERER_OPENGL
+
+/* Use OpenVG renderer */
+#undef RENDERER_OPENVG
+
+/* Speex resampler available */
+#undef RESAMPLING_SPEEX
+
+/* The size of `void *', as computed by sizeof. */
+#undef SIZEOF_VOID_P
+
+/* this is a Solaris platform */
+#undef SOLARIS_HOST
+
+/* Use AmigaOS AHI for sound handling */
+#undef SOUND_AHI
+
+/* Use Haiku Media Kit for sound handling */
+#undef SOUND_MKIT
+
+/* Use SDL for sound handling */
+#undef SOUND_SDL
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* Enable cgi-bin processes for Cygnal */
+#undef USE_CGIBIN
+
+/* Define this if you want to enable curl usage */
+#undef USE_CURL
+
+/* Build the DBUS extension */
+#undef USE_DBUS_EXT
+
+/* Build the DejaGnu extension */
+#undef USE_DEJAGNU_EXT
+
+/* Specify that extension support is enabled. */
+#undef USE_EXTENSIONS
+
+/* Build the FileIO extension */
+#undef USE_FILEIO_EXT
+
+/* Define this if you want to enable freetype usage */
+#undef USE_FREETYPE
+
+/* Use the GIF library */
+#undef USE_GIF
+
+/* Use GtkGLExt extension */
+#undef USE_GTKGLEXT
+
+/* Build all the extensions */
+#undef USE_GTK_EXT
+
+/* Add support for a directly using Linux Input Event Devices */
+#undef USE_INPUT_EVENTS
+
+/* Use jemalloc instead of system malloc */
+#undef USE_JEMALLOC
+
+/* Add support for directly using a PS/2 Keyboard */
+#undef USE_KEYBOARD_PS2
+
+/* Support LocalConnection */
+#undef USE_LC
+
+/* Build the LIRC extension */
+#undef USE_LIRC_EXT
+
+/* GUI Menu support */
+#undef USE_MENUS
+
+/* Add support for a directly using a PS/2 Mouse */
+#undef USE_MOUSE_PS2
+
+/* Build the MySQL extension */
+#undef USE_MYSQL_EXT
+
+/* Use the PNG library */
+#undef USE_PNG
+
+/* Shared Objects are read-only */
+#undef USE_SOL_READONLY
+
+/* Use SSH for authentication */
+#undef USE_SSH
+
+/* Use SSL for authentication */
+#undef USE_SSL
+
+/* Support statistics collecting for the queue buffers */
+#undef USE_STATS_BUFFERS
+
+/* Support statistics collecting for the cache */
+#undef USE_STATS_CACHE
+
+/* Support statistics collecting for all memory profiling */
+#undef USE_STATS_MEMORY
+
+/* Support statistics collecting for the queues */
+#undef USE_STATS_QUEUE
+
+/* View SWF information */
+#undef USE_SWFTREE
+
+/* Testsuite support, maintainers option only */
+#undef USE_TESTSUITE
+
+/* Use a tslib supported touchscreen */
+#undef USE_TSLIB
+
+/* Version number of package */
+#undef VERSION
+
+/* this is a Win32 platform */
+#undef WIN32_HOST
+
+/* this is a WINCE6 platform */
+#undef WINCE6_HOST
+
+/* this is a WINCE platform */
+#undef WINCE_HOST
+
+/* Define if GConf support is enabled */
+#undef WITH_GCONF
+
+/* this is a 64 platform */
+#undef WORDSIZE
+
+/* Define WORDS_BIGENDIAN to 1 if your processor stores words with the most
+   significant byte first (like Motorola and SPARC, unlike Intel). */
+#if defined AC_APPLE_UNIVERSAL_BUILD
+# if defined __BIG_ENDIAN__
+#  define WORDS_BIGENDIAN 1
+# endif
+#else
+# ifndef WORDS_BIGENDIAN
+#  undef WORDS_BIGENDIAN
+# endif
+#endif
+
+/* Write files while streaming */
+#undef WRITE_FILE
+
+/* this is a 64 bit powerpc */
+#undef __powerpc64__
+
+/* Define to empty if `const' does not conform to ANSI C. */
+#undef const
+
+/* Define to `__inline__' or `__inline' if that's what the C compiler
+   calls it, or to nothing if 'inline' is not supported under any name.  */
+#ifndef __cplusplus
+#undef inline
+#endif

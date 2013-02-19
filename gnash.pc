@@ -1,0 +1,11 @@
+prefix=/usr/local/gnash-dump
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/gnash
+includedir=${prefix}/include/gnash/
+
+Name: Gnash
+Description: Flash (shockwave) player
+Version: 0.8.11dev
+Libs: -L${libdir} -lgnashcore
+Cflags: -I${includedir}
+
